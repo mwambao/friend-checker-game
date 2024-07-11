@@ -1,0 +1,38 @@
+<!--
+# friend-checker-game
+- Ask the user to enter a name, using the switch statement to return a confirmation that the user is a friend if the name selected is known in the case statements. 
+- You can add a default response that you don't know the person if it's an unknown name.
+- Output the result into the console.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Checker Game</title>
+    
+</head>
+<body>
+    <script type="text/javascript">
+
+        aName =  prompt("Enter a name");
+        aName = String(aName);//convert entry to a string
+
+        switch(aName) {
+            case "Duncan":
+                console.log("You are my friend " + aName);
+                break;
+            case "Watkins":
+                console.log("You are my friend " + aName);
+                break;  
+            case "Mary":
+                console.log("You are my friend " + aName);
+                break;            
+            default:
+                console.log("I don't know you!")
+                break;
+        }
+    </script>
+</body>
+</html>
